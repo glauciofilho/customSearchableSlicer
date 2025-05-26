@@ -1,0 +1,29 @@
+.custom-slicer {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 10px;
+
+  .search-box {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .items-container {
+    max-height: 300px;
+    overflow-y: auto;
+
+    .slicer-item {
+      padding: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: #f0f0f0;
+      }
+      &.selected {
+        background-color: #0078d4;
+        color: white;
+      }
+    }
+  }
+}

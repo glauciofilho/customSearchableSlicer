@@ -1,0 +1,29 @@
+.custom-slicer {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 10px;
+}
+.custom-slicer .search-box {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.custom-slicer .items-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.custom-slicer .items-container .slicer-item {
+  padding: 5px;
+  cursor: pointer;
+}
+.custom-slicer .items-container .slicer-item:hover {
+  background-color: #f0f0f0;
+}
+.custom-slicer .items-container .slicer-item.selected {
+  background-color: #0078d4;
+  color: white;
+}
+
+
+/*# sourceMappingURL=https://localhost:8080/assets/visual.css.map*/

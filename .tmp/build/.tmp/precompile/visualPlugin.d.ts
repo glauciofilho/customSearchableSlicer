@@ -1,0 +1,4 @@
+import powerbiVisualsApi from "powerbi-visuals-api";
+import IVisualPlugin = powerbiVisualsApi.visuals.plugins.IVisualPlugin;
+declare var customSearchableSlicer4B41DAD5D1744836A722B9706165251C_DEBUG: IVisualPlugin;
+export default customSearchableSlicer4B41DAD5D1744836A722B9706165251C_DEBUG;
